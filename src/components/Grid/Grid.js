@@ -1,16 +1,9 @@
 import React, { Component, PureComponent } from 'react'
 // import { HeaderShowcase, Menu }   from '@groceristar/antd-showcase-components';
 
-import { List, Card } from 'antd'
+import { List } from 'antd'
 
-// @TODO REPLACE CARD WITH OUR CUSTOM WRAPPER
-// import {
-//   Card1,
-//   Card2,
-//   Card3,
-//   Card4,
-//   Card5
-// } from '~/Cards'
+import ListWrapper from '~/ListWrapper/ListWrapper'
 
 import data from './data'
 
@@ -36,7 +29,10 @@ const Grid = (styles, data) => {
 const GridList = () => {
   return (
     <Fragment>
-      <Grid styles={list.grid} data={data} />
+      <Grid
+        styles={list.grid}
+        data={data}
+      />
     </Fragment>
   )
 }
@@ -46,7 +42,10 @@ const GridList = () => {
 const GridCardsResponsive = () => {
   return (
     <Fragment>
-      <Grid styles={responsive.grid} data={data} />
+      <Grid
+        styles={responsive.grid}
+        data={data}
+      />
     </Fragment>
   )
 }
