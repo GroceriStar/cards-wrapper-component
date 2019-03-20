@@ -1,6 +1,6 @@
 {
   "name": "@groceristar/cards-wrapper",
-  "version": "1.0.17",
+  "version": "1.0.18",
   "description": "module to use antd cards between projects",
   "main": "dist/index.js",
   "module": "dist/index.es.js",
@@ -9,7 +9,7 @@
   "license": "MIT",
   "private": false,
   "scripts": {
-    "bundle":"rollup -c",
+    "bundle": "rollup -c",
     "build": "babel src -d dist",
     "build:test": "shx rm -rf && babel src -d dist",
     "#prepare": "yarn clean",
