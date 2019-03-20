@@ -8,4 +8,4 @@ const RenderItem = (item) => {
   )
 }
 
-export default RenderItem;
+export default RenderItem

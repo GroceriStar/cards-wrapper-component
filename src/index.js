@@ -23,22 +23,16 @@ import {
   LinkEmptyImage
 } from '~/EmptyWrapper'
 
-
 import { Grid, GridCards, GridCardsResponsive } from '~/Grid/Grid'
-
-
 
 import ClearCardsExample from '@v/ClearCardsExample/ClearCardsExample'
 import DefaultCardsExample from '@v/DefaultCardsExample/DefaultCardsExample'
-
 
 // import ExampleListView from '@v/ExampleListView/ExampleListView'
 // import ExampleRecipeListView from '@v/ExampleRecipeListView/ExampleRecipeListView'
 import ExampleListView from '@v/ExampleListView'
 import ExampleRecipeListView from '@v/ExampleRecipeListView'
 import ExampleView from '@v/ExampleView'
-
-
 
 export {
   Card1,

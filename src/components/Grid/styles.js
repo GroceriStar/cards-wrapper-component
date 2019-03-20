@@ -11,4 +11,4 @@ const responsive = {
 export {
   list,
   responsive
-};
+}

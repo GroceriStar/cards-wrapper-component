@@ -20,7 +20,7 @@ const BetterCard = (image, title, directions) => {
   const actions = [
     <a>OK</a>,
     <a>OK</a>
-  ];
+  ]
   return (
     <Card
       hoverable

@@ -10,9 +10,7 @@ import data from './data'
 import {
   list,
   responsive
-} from './styles';
-
-
+} from './styles'
 
 const Grid = (styles, data) => {
   return (
@@ -36,8 +34,6 @@ const GridList = () => {
     </Fragment>
   )
 }
-
-
 
 const GridCardsResponsive = () => {
   return (
