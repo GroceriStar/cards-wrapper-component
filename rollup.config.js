@@ -2,6 +2,7 @@ import commonjs from 'rollup-plugin-commonjs'
 import resolve from 'rollup-plugin-node-resolve'
 // import copy from 'rollup-plugin-copy-assets';
 import babel from 'rollup-plugin-babel'
+
 import pkg from './package.json'
 
 const extensions = [
@@ -15,14 +16,19 @@ export default {
 
   // Specify here external modules which you don't want to include in your bundle (for instance: 'lodash', 'moment' etc.)
   // https://rollupjs.org/guide/en#external-e-external
-  external: ['antd', 'lodash', 'uuid'],
+  external: [
+    'antd',
+    'lodash',
+    'uuid',
+    'react-image',
+    '@react-pdf/renderer',
+    'react',
+    'react-dom'
+  ],
 
   plugins: [
     // Allows node_modules resolution
     resolve({ extensions }),
-
-    // Allow bundling cjs modules. Rollup doesn't understand cjs
-    commonjs(),
 
     // Compile TypeScript/JavaScript files
     babel({
@@ -36,7 +42,14 @@ export default {
       // exclude: 'node_modules/**'
       // presets: presets,
       // plugins: plugins
+    }),
+
+    // Allow bundling cjs modules. Rollup doesn't understand cjs
+    commonjs({
+      exclude: 'src/**',
     })
+
+
 
     // just fix in order to move json files to npm
     // copy({
