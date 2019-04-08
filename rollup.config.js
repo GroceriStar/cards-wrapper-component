@@ -11,12 +11,19 @@ const extensions = [
 
 const name = 'AntDCardsComponents'
 
-export default {
-  input: './src/index.js',
+const { external, globals } = {
 
-  // Specify here external modules which you don't want to include in your bundle (for instance: 'lodash', 'moment' etc.)
-  // https://rollupjs.org/guide/en#external-e-external
-  external: [
+  "globals": {
+    "react": "React",
+    "react-dom": "ReactDom",
+    "react-router-dom": "react-router-dom",
+    'antd': 'antd'
+    'lodash': 'lodash',
+    'uuid':'uuid',
+    'react-image':'react-image',
+    '@react-pdf/renderer',
+  },
+  "external": [
     'antd',
     'lodash',
     'uuid',
@@ -24,12 +31,18 @@ export default {
     '@react-pdf/renderer',
     'react',
     'react-dom'
-  ],
+  ]
+};
 
-  globals: {
-    react: 'React',
-    //   'react-dom': 'ReactDOM'
-  },
+export default {
+  input: './src/index.js',
+
+  // Specify here external modules which you don't want to include in your bundle (for instance: 'lodash', 'moment' etc.)
+  // https://rollupjs.org/guide/en#external-e-external
+  external: external,
+
+  globals: globals,
+
 
   plugins: [
     // Allows node_modules resolution
