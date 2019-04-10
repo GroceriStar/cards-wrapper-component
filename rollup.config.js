@@ -17,12 +17,13 @@ const { external, globals } = {
     "react": "React",
     "react-dom": "ReactDom",
     "react-router-dom": "react-router-dom",
-    'antd': 'antd'
+    'antd': 'antd',
     'lodash': 'lodash',
     'uuid':'uuid',
     'react-image':'react-image',
-    '@react-pdf/renderer',
+    '@react-pdf/renderer': '@react-pdf/renderer'
   },
+
   "external": [
     'antd',
     'lodash',
