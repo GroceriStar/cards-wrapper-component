@@ -4,6 +4,8 @@
 
 [![Maintainability](https://api.codeclimate.com/v1/badges/b4342c1ef5b02145bada/maintainability)](https://codeclimate.com/github/GroceriStar/cards-wrapper-component/maintainability)
 
+[![npm version](http://img.shields.io/npm/v/@groceristar/cards-wrapper.svg?style=flat)](https://npmjs.org/package/@groceristar/cards-wrapper "View this project on npm")
+
 This is a separated module, related with [recipe-antd](https://github.com/ChickenKyiv/recipe-antd) repository.
 
 Main goal is to separate development process and have a separated place, where we can develop the logic of default components and then use them into our.
