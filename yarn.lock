@@ -991,9 +991,9 @@
     "@types/istanbul-lib-coverage" "*"
     "@types/istanbul-lib-report" "*"
 
-"@types/node@*", "@types/node@^12.0.3":
-  version "12.0.3"
-  resolved "https://registry.yarnpkg.com/@types/node/-/node-12.0.3.tgz#5d8d24e0033fc6393efadc85cb59c1f638095c9a"
+"@types/node@*", "@types/node@^12.0.8":
+  version "12.0.8"
+  resolved "https://registry.yarnpkg.com/@types/node/-/node-12.0.8.tgz#551466be11b2adc3f3d47156758f610bd9f6b1d8"
 
 "@types/prop-types@*":
   version "15.7.0"
@@ -5277,12 +5277,12 @@ rollup-pluginutils@^2.8.0:
   dependencies:
     estree-walker "^0.6.1"
 
-rollup@1.14.3:
-  version "1.14.3"
-  resolved "https://registry.yarnpkg.com/rollup/-/rollup-1.14.3.tgz#f9b0bd428aa5945c712575e55b497e802ccb4ab9"
+rollup@1.15.2:
+  version "1.15.2"
+  resolved "https://registry.yarnpkg.com/rollup/-/rollup-1.15.2.tgz#676feb0e73c8f99f75e0078b331a576c56354df6"
   dependencies:
     "@types/estree" "0.0.39"
-    "@types/node" "^12.0.3"
+    "@types/node" "^12.0.8"
     acorn "^6.1.1"
 
 rst-selector-parser@^2.2.3:
