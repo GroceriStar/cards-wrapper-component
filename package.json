@@ -39,7 +39,7 @@
     "regenerator-runtime": "0.13.2",
     "rollup": "1.15.6",
     "rollup-plugin-babel": "4.3.3",
-    "rollup-plugin-commonjs": "10.0.0",
+    "rollup-plugin-commonjs": "10.0.1",
     "rollup-plugin-node-resolve": "5.0.4",
     "rollup-plugin-replace": "2.2.0",
     "shx": "0.3.2",
