@@ -902,8 +902,8 @@
   resolved "https://registry.yarnpkg.com/@react-pdf/png-js/-/png-js-1.0.0.tgz#00fcb969dca4ce82a0a7673413ade039e47b361e"
 
 "@react-pdf/renderer@^1.5.1":
-  version "1.6.2"
-  resolved "https://registry.yarnpkg.com/@react-pdf/renderer/-/renderer-1.6.2.tgz#c6d5f597f2a1eb25c0789143e34cd2d1444bcc55"
+  version "1.6.3"
+  resolved "https://registry.yarnpkg.com/@react-pdf/renderer/-/renderer-1.6.3.tgz#d8a5e38ddc10ade397a1f3914f67d6a0bcb223e7"
   dependencies:
     "@babel/runtime" "^7.3.1"
     "@react-pdf/fontkit" "^1.13.0"
