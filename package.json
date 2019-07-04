@@ -19,7 +19,9 @@
     "test": "CI=true && jest",
     "test:watch": "jest --watch",
     "test:cover": "jest --coverage",
-    "code-fix": "standard --fix"
+    "code-fix": "standard --fix",
+    "snyk-protect": "snyk protect",
+    "prepublish": "npm run snyk-protect"
   },
   "devDependencies": {
     "@babel/cli": "7.4.4",
@@ -49,7 +51,8 @@
     "@react-pdf/renderer": "^1.5.1",
     "antd": "^3.16.2",
     "react-image": "^2.1.1",
-    "uuid": "^3.3.2"
+    "uuid": "^3.3.2",
+    "snyk": "^1.189.0"
   },
   "peerDependencies": {
     "react": "^16.8.1",
@@ -60,5 +63,6 @@
   },
   "files": [
     "dist"
-  ]
+  ],
+  "snyk": true
 }
