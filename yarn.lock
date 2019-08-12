@@ -943,8 +943,8 @@
   resolved "https://registry.yarnpkg.com/@react-pdf/png-js/-/png-js-1.0.0.tgz#00fcb969dca4ce82a0a7673413ade039e47b361e"
 
 "@react-pdf/renderer@^1.5.1":
-  version "1.6.3"
-  resolved "https://registry.yarnpkg.com/@react-pdf/renderer/-/renderer-1.6.3.tgz#d8a5e38ddc10ade397a1f3914f67d6a0bcb223e7"
+  version "1.6.4"
+  resolved "https://registry.yarnpkg.com/@react-pdf/renderer/-/renderer-1.6.4.tgz#282acdab90a2a33e99921cd191fde12c8d4db631"
   dependencies:
     "@babel/runtime" "^7.3.1"
     "@react-pdf/fontkit" "^1.13.0"
@@ -960,6 +960,7 @@
     ramda "^0.26.1"
     react "^16.8.6"
     react-reconciler "^0.20.4"
+    scheduler "^0.14.0"
     yoga-layout-prebuilt "^1.9.3"
 
 "@react-pdf/textkit@^0.3.7":
@@ -6038,6 +6039,13 @@ sax@>=0.6.0, sax@^1.2.4:
 scheduler@^0.13.6:
   version "0.13.6"
   resolved "https://registry.yarnpkg.com/scheduler/-/scheduler-0.13.6.tgz#466a4ec332467b31a91b9bf74e5347072e4cd889"
+  dependencies:
+    loose-envify "^1.1.0"
+    object-assign "^4.1.1"
+
+scheduler@^0.14.0:
+  version "0.14.0"
+  resolved "https://registry.yarnpkg.com/scheduler/-/scheduler-0.14.0.tgz#b392c23c9c14bfa2933d4740ad5603cc0d59ea5b"
   dependencies:
     loose-envify "^1.1.0"
     object-assign "^4.1.1"
