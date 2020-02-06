@@ -6154,8 +6154,8 @@ react-dom@16.12.0:
     scheduler "^0.18.0"
 
 react-image@^2.1.1:
-  version "2.2.2"
-  resolved "https://registry.yarnpkg.com/react-image/-/react-image-2.2.2.tgz#603452970b7d86a23c56cd2cd1f4f6b797b902d8"
+  version "2.3.0"
+  resolved "https://registry.yarnpkg.com/react-image/-/react-image-2.3.0.tgz#160abd648a39f1c5869c75e8c1c29115e27ef1f2"
   dependencies:
     prop-types "15.7.2"
 
