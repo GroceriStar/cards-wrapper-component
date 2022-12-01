@@ -52,7 +52,7 @@
     "antd": "^4.0.0",
     "react-image": "^2.1.1",
     "uuid": "^7.0.0",
-    "snyk": "^1.258.2"
+    "snyk": "^1.1064.0"
   },
   "peerDependencies": {
     "react": "^16.8.1",
